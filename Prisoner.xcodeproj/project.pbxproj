@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58587DBC1C2B03AE00BF8C5F /* PrisonerConcience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58587DB61C2B03AE00BF8C5F /* PrisonerConcience.swift */; };
+		58587DBD1C2B03AE00BF8C5F /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58587DB81C2B03AE00BF8C5F /* ArrayExtensions.swift */; };
+		58587DBE1C2B03AE00BF8C5F /* Interrogation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58587DBA1C2B03AE00BF8C5F /* Interrogation.swift */; };
+		58587DBF1C2B03AE00BF8C5F /* PrisonerConcienceOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58587DBB1C2B03AE00BF8C5F /* PrisonerConcienceOption.swift */; };
 		586E9BCC1C1F436B00814D57 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586E9BCB1C1F436B00814D57 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +27,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		58587DB61C2B03AE00BF8C5F /* PrisonerConcience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrisonerConcience.swift; sourceTree = "<group>"; };
+		58587DB81C2B03AE00BF8C5F /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		58587DBA1C2B03AE00BF8C5F /* Interrogation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interrogation.swift; sourceTree = "<group>"; };
+		58587DBB1C2B03AE00BF8C5F /* PrisonerConcienceOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrisonerConcienceOption.swift; sourceTree = "<group>"; };
 		586E9BC81C1F436B00814D57 /* Prisoner */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Prisoner; sourceTree = BUILT_PRODUCTS_DIR; };
 		586E9BCB1C1F436B00814D57 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +46,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58587DB51C2B03AE00BF8C5F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				58587DB61C2B03AE00BF8C5F /* PrisonerConcience.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		58587DB71C2B03AE00BF8C5F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				58587DB81C2B03AE00BF8C5F /* ArrayExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		58587DB91C2B03AE00BF8C5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				58587DBA1C2B03AE00BF8C5F /* Interrogation.swift */,
+				58587DBB1C2B03AE00BF8C5F /* PrisonerConcienceOption.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		586E9BBF1C1F436B00814D57 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +90,9 @@
 		586E9BCA1C1F436B00814D57 /* Prisoner */ = {
 			isa = PBXGroup;
 			children = (
+				58587DB51C2B03AE00BF8C5F /* Controller */,
+				58587DB71C2B03AE00BF8C5F /* Extensions */,
+				58587DB91C2B03AE00BF8C5F /* Model */,
 				586E9BCB1C1F436B00814D57 /* main.swift */,
 			);
 			path = Prisoner;
@@ -120,6 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				586E9BCC1C1F436B00814D57 /* main.swift in Sources */,
+				58587DBD1C2B03AE00BF8C5F /* ArrayExtensions.swift in Sources */,
+				58587DBF1C2B03AE00BF8C5F /* PrisonerConcienceOption.swift in Sources */,
+				58587DBC1C2B03AE00BF8C5F /* PrisonerConcience.swift in Sources */,
+				58587DBE1C2B03AE00BF8C5F /* Interrogation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +279,7 @@
 				586E9BD11C1F436B00814D57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

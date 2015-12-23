@@ -17,7 +17,7 @@
 # OPTIONAL CONFIGURATION:
 #
 # Uncomment this line to enable loading Console.app to see the log statements below
- SHOW_DEBUG_CONSOLE="YES"
+# SHOW_DEBUG_CONSOLE="YES"
 #
 # =====================================================================================================================
 

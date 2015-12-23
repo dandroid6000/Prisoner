@@ -11,6 +11,7 @@ import Foundation
 
 // I've configured the project's arguments through the scheme; however, I also
 // Included a set of debugArguments here in the same format for use during development.
+// If you use these be sure to switch back to using the process arguments for your submission.
 
 let debugArguments = [
     "Prisoner",

@@ -14,11 +14,11 @@ import Foundation
 // If you use these be sure to switch back to using the process arguments for your submission.
 
 let debugArguments = [
-    "Prisoner",
-    "No 6",
-    "mobile",
-    "confess",
-    "confess"
+    "Prisoner", // AppName
+    "No 6", // PartnerName
+    "mobile", // PartnerDiscipline
+    "confess", // PartnerPreviousResponse
+    "confess" // PlayerPreviousResponse
 ]
 
 let interrogation = Interrogation(arguments: NSProcessInfo.processInfo().arguments)

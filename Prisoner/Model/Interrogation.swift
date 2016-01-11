@@ -10,13 +10,14 @@ import Foundation
 
 struct Interrogation {
     let partnerName: String
-    let partnerDiscipline: String
+    let partnerDiscipline: Discipline
     let partnerDidConfessPreviously: Bool?
     let playerDidConfessPreviously: Bool?
     
     init?(arguments: Array<String>) {        
         guard let partnerName = arguments[safe: .PartnerName],
-                  partnerDiscipline = arguments[safe: .PartnerDiscipline]
+                  partnerDisciplineString = arguments[safe: .PartnerDiscipline],
+                  partnerDiscipline = Discipline(rawValue: partnerDisciplineString)
         else {
             return nil
         }

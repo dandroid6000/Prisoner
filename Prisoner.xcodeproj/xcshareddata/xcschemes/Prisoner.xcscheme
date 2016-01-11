@@ -85,7 +85,7 @@
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "mobile"
+            argument = ".net"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument

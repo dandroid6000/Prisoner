@@ -16,6 +16,10 @@ class PrisonerConcience {
     }
     
     func decide() -> PrisonerConcienceOption {
+        if interrogation.partnerDiscipline == .Mobile {
+            return .Silent
+        }
+        
         return .Confess
     }
 }

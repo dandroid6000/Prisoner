@@ -12,6 +12,7 @@
 		58587DBE1C2B03AE00BF8C5F /* Interrogation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58587DBA1C2B03AE00BF8C5F /* Interrogation.swift */; };
 		58587DBF1C2B03AE00BF8C5F /* PrisonerConcienceOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58587DBB1C2B03AE00BF8C5F /* PrisonerConcienceOption.swift */; };
 		586E9BCC1C1F436B00814D57 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586E9BCB1C1F436B00814D57 /* main.swift */; };
+		58A88D8F1C3F0ECF00574651 /* Discipline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A88D8E1C3F0ECF00574651 /* Discipline.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		58587DBB1C2B03AE00BF8C5F /* PrisonerConcienceOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrisonerConcienceOption.swift; sourceTree = "<group>"; };
 		586E9BC81C1F436B00814D57 /* Prisoner */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Prisoner; sourceTree = BUILT_PRODUCTS_DIR; };
 		586E9BCB1C1F436B00814D57 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		58A88D8E1C3F0ECF00574651 /* Discipline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Discipline.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			children = (
 				58587DBA1C2B03AE00BF8C5F /* Interrogation.swift */,
 				58587DBB1C2B03AE00BF8C5F /* PrisonerConcienceOption.swift */,
+				58A88D8E1C3F0ECF00574651 /* Discipline.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				58587DBF1C2B03AE00BF8C5F /* PrisonerConcienceOption.swift in Sources */,
 				58587DBC1C2B03AE00BF8C5F /* PrisonerConcience.swift in Sources */,
 				58587DBE1C2B03AE00BF8C5F /* Interrogation.swift in Sources */,
+				58A88D8F1C3F0ECF00574651 /* Discipline.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

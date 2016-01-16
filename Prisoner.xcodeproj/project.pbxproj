@@ -12,6 +12,8 @@
 		58587DBE1C2B03AE00BF8C5F /* Interrogation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58587DBA1C2B03AE00BF8C5F /* Interrogation.swift */; };
 		58587DBF1C2B03AE00BF8C5F /* PrisonerConcienceOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58587DBB1C2B03AE00BF8C5F /* PrisonerConcienceOption.swift */; };
 		586E9BCC1C1F436B00814D57 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586E9BCB1C1F436B00814D57 /* main.swift */; };
+		84AC368B1C471E1F00C1A85F /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AC368A1C471E1F00C1A85F /* StringExtensions.swift */; };
+		84AC368D1C4980F600C1A85F /* PrisonerMemory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AC368C1C4980F600C1A85F /* PrisonerMemory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +35,8 @@
 		58587DBB1C2B03AE00BF8C5F /* PrisonerConcienceOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrisonerConcienceOption.swift; sourceTree = "<group>"; };
 		586E9BC81C1F436B00814D57 /* Prisoner */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Prisoner; sourceTree = BUILT_PRODUCTS_DIR; };
 		586E9BCB1C1F436B00814D57 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		84AC368A1C471E1F00C1A85F /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		84AC368C1C4980F600C1A85F /* PrisonerMemory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrisonerMemory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				58587DB61C2B03AE00BF8C5F /* PrisonerConcience.swift */,
+				84AC368C1C4980F600C1A85F /* PrisonerMemory.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -58,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				58587DB81C2B03AE00BF8C5F /* ArrayExtensions.swift */,
+				84AC368A1C471E1F00C1A85F /* StringExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -155,8 +161,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AC368B1C471E1F00C1A85F /* StringExtensions.swift in Sources */,
 				586E9BCC1C1F436B00814D57 /* main.swift in Sources */,
 				58587DBD1C2B03AE00BF8C5F /* ArrayExtensions.swift in Sources */,
+				84AC368D1C4980F600C1A85F /* PrisonerMemory.swift in Sources */,
 				58587DBF1C2B03AE00BF8C5F /* PrisonerConcienceOption.swift in Sources */,
 				58587DBC1C2B03AE00BF8C5F /* PrisonerConcience.swift in Sources */,
 				58587DBE1C2B03AE00BF8C5F /* Interrogation.swift in Sources */,

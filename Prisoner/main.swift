@@ -21,14 +21,18 @@ let debugArguments = [
     "confess" // PlayerPreviousResponse
 ]
 
-let interrogation = Interrogation(arguments: NSProcessInfo.processInfo().arguments)
-
-guard let validInterrogation = interrogation else {
+if let reset = NSProcessInfo.processInfo().arguments[safe: 1] where reset == "reset" {
+    // Reset internal data
+    let partner = NSProcessInfo.processInfo().arguments[safe: 2]
+    PrisonerMemory.sharedInstance.reset(partner)
+} else if let interrogation = Interrogation(arguments: NSProcessInfo.processInfo().arguments) {
+    // Valid interrogation
+    let prisonerConcience = PrisonerConcience(interrogation: interrogation)
+    print(prisonerConcience.decide())
+} else {
+    // Error
     print("Invalid command arguments expected the following format: <partnerName> <partnerDiscipline> [partnerPreviousResponse] [playerPreviousResponse]")
     exit(EXIT_FAILURE)
 }
-
-let prisonerConcience = PrisonerConcience(interrogation: validInterrogation)
-print(prisonerConcience.decide())
 
 exit(EXIT_SUCCESS)

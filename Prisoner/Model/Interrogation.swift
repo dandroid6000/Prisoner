@@ -25,13 +25,13 @@ struct Interrogation {
         self.partnerDiscipline = partnerDiscipline
         
         if let partnerPreviousResponse = arguments[safe: .PartnerPreviousResponse] {
-            self.partnerDidConfessPreviously = partnerPreviousResponse == PrisonerConcienceOption.Confess.rawValue
+            self.partnerDidConfessPreviously = partnerPreviousResponse == PrisonerConcienceOption.Confess
         } else {
             self.partnerDidConfessPreviously = nil
         }
 
         if let playerPreviousResponse = arguments[safe: .PlayerPreviousResponse] {
-            self.playerDidConfessPreviously = playerPreviousResponse == PrisonerConcienceOption.Confess.rawValue
+            self.playerDidConfessPreviously = playerPreviousResponse == PrisonerConcienceOption.Confess
         } else {
             self.playerDidConfessPreviously = nil
         }
